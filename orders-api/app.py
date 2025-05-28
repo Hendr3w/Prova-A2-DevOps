@@ -18,7 +18,7 @@ def create_order():
 
     db = mysql.connector.connect(
         host="db",
-        port=3666,
+        port=3306,
         user="root",
         password="example",
         database="ecommerce"
